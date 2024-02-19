@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'arial';
+    height: 100vh;
+    margin: 0;
+    background-color: #393E46;
+    
+}
+
+h2 {
+    font-family: 'poppins';
+    color: #00ffbf;
+}
+
+.main{
+    text-align: center;
+    padding: 0% 5%;
+}
+
+.timer{
+    margin-top: 5%;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fff;
+}
+
+.menu{
+    margin-bottom: 20px;
+}
+
+.numbers{
+    font-size: 3rem;
+    color: aliceblue;
+}
+.text{
+    font-size: 3rem;
+    color: aliceblue;
+}
+#ms{
+    font-size: 2rem;
+}
+
+.btns{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5% 0%;
+    width:30%;
+}
+
+#lapBtn{
+    border-radius: 50% 15% 15% 50%
+}
+
+#pauseBtn{
+    background-color: #00ffbf;
+    border-radius: 15%;
+}
+#startBtn{
+    background-color: #08D9D6;
+    border-radius: 15%;
+}
+
+#startBtn:focus{
+    background-color: #00ffbf;
+
+}
+
+#resetBtn{
+    border-radius: 15% 50% 50% 15%;
+}
+
+.lapHeader{
+    margin-bottom: 2px;
+    color: #00ffbf;
+    border-bottom: 2px solid #00ffbf;
+    font-size: 1.5rem;
+    font-family: 'poppins';
+}
+
+.laps-container {
+    font-size: 1.5rem;
+    color: aliceblue;
+    max-height: 8000px; /* Adjust this value as needed */
+    overflow-y: auto;
+}
